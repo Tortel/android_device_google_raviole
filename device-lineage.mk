@@ -16,6 +16,10 @@ TARGET_PREBUILT_KERNEL := device/google/raviole-kernel/Image.lz4
 DEVICE_MANIFEST_FILE += \
     device/google/raviole/manifest_radio.xml
 
+# Trust HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.trust@1.0-service
+
 # Build necessary packages for vendor
 
 # Bluetooth
