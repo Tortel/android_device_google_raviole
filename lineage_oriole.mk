@@ -1,3 +1,7 @@
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
+
 # Inherit some common stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
