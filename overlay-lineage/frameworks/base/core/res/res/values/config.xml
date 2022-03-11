@@ -30,4 +30,7 @@
         <!-- ImsService -->
         <item>com.shannon.imsservice</item>
     </string-array>
+
+    <!-- Keep this in sync with vendor/calyx -->
+    <string translatable="false" name="config_appsNotReportingCrashes">com.android.statementservice,com.google.euiccpixel</string>
 </resources>
