@@ -1,3 +1,5 @@
+PRODUCT_PACKAGE_OVERLAYS += device/google/raviole/overlay-lineage
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
